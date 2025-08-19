@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/pages/mui/button/page.js", "src/app/pages/mui/card/page.js", "src/app/pages/mui/dialog/page.js", "src/app/pages/mui/drawer/page.js", "src/app/pages/mui/navigation/tabs/page.js", "src/app/pages/mui/navigation/appbar/page.js", "src/app/pages/mui/typography/page.js"],
+  "exclude": ["node_modules"]
+}
